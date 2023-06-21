@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #250057;
+}
+.input-container{
+    background-color: white;
+    width: 40%;
+    max-width: 350px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    gap: 10px;
+    justify-content: center;
+}
+.checkbox{
+
+    margin-left: 36% ;
+
+}
+
+.input-container input{
+    display: flex;
+  width: 100%;  
+ /* height: 100%; */
+ padding: 10px 0; 
+border: 0;
+outline: 0;
+/* margin-left: 30px; */
+/* font-size: px; */
+/* color: #555; */
+} 
+.input-container label{
+    /* font-size: 10px; */
+    
+     /* margin-right: 10px;
+     align-items: center;
+     justify-content: center; */
+     width: 100%;
+}
+
+.input-container img{
+    width: 35px;
+    cursor: pointer;
+}
+
+.Submit{
+    /* background-color: white;
+    width: 40%;
+    max-width: 350px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    gap: 10px;
+    justify-content: center; */
+    margin-left: 36% ;
+    padding: 10px 20px;
+}
+
+.message{
+    color: white;
+    font-size: 24px;
+    margin-top: 30px;
+
+}
